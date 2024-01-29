@@ -4,6 +4,11 @@
     padding: 40px 30px ;
 }
 
-.header-bg {
-    
+header {
+    background-image: url(pattern.png);
+    background-color:#4EA0FF;
+    height:  200px;
+    width: 100%;
+    background-size: 45% auto;
+
 }
