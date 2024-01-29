@@ -27,3 +27,33 @@ header {
      font-size: 80px;
     font-weight: 900;
 }
+
+.text-info{
+    font-size: 18px;
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+#ceo{
+    color: #20A9E5;
+    font-size: 20px;
+}
+
+.img-1{
+    padding-left: 10px;
+    
+}
+.text-img1{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.text-page{
+
+    font-size: 20px;
+    font-weight: 800;
+}
+#important-text{
+    background-color: yellow;
+}
