@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 
@@ -53,7 +52,34 @@ header {
 
     font-size: 20px;
     font-weight: 800;
+    padding-bottom: 20px;
 }
 #important-text{
     background-color: yellow;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+.tab-right{
+    width: 25%;
+}
+.tab-left{
+    width: 50%;
+}
+
+thead{
+    color: white;
+    background-color:  #20A9E5;
+    
+}
+
+tbody{
+    background-color: #B1E5F2;
+    
+}
+#white-tb{
+    background-color: white;
 }
