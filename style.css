@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -32,6 +36,7 @@ header {
 #ceo{
     color: #20A9E5;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .img-1{
@@ -80,27 +85,21 @@ tbody{
     background-color: white;
 }
 
-.img-first{
-    font-size: 20px;
-     padding-top: 10px;
+.box{
     color: white;
-     margin-top: 10px;
-    width: 200px;
-    height: 200px;
-    background-image: url(./img/monitor.jpg)
-}
-.img-first2{
+    width: 420px;
+    height: 208px;
+    font-size: 24px;
+    background-size: contain;
 
-    font-size: 20px;
-     padding-top: 10px;
-    color: white;
-     margin-top: 10px;
-    width: 200px;
-    height: 200px;
-    background-image: url(./img/graph.jpg)
+}
+#monitor{
+background-image: url(img/monitor.jpg);
 }
 
-
+#graph{
+    background-image: url(img/graph.jpg);
+}
 
 
 .info{
